@@ -1,4 +1,4 @@
-# 🌍 AI Travel Cost Estimator 🚀  
+# 🌍 AI Travel Cost Estimator 
 
 An AI-powered travel assistant that provides **estimated travel costs**, **travel time**, and **best travel seasons** based on user inputs.  
 
