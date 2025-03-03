@@ -12,10 +12,8 @@ prompt_template = ChatPromptTemplate.from_messages([
     ("human", "Can you provide travel details, including cost estimates and travel time, for a trip from {source} to {destination} for {num_travellers} people using {mode_of_transport}?")
 ])
 
-# loading an api key
-
-with open(r"C:\Users\chand\Innomatics\INTERNSHIP\Api key\gemini.txt", "r") as f:
-    api_key = f.read().strip()
+# Retrieve API key from Streamlit Secrets
+api_key = st.secrets["gcp"]["google_api_key"]
 
 # setting the open ai key and initialize the chatmodel
 
